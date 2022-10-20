@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Name="" Version="3.16" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="2047" PreviewOptions.Zoom="1" PrintOptions.Printer="�� ���������" ReportOptions.CreateDate="40288,6725253125" ReportOptions.Description.Text="" ReportOptions.LastChange="40291,4753493866" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403300103546F7003E00108446174617365747301010C3400000020446174615365743D22667278444244617461736574312220446174615365744E616D653D2266727844424461746173657431220000095661726961626C65730100055374796C650100">
+  <TfrxReportPage Name="Page1" Orientation="poLandscape" PaperWidth="297" PaperHeight="210" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="64,25201" Left="0" Top="18,89765" Width="1046,92981">
+      <TfrxMemoView Name="Memo2" Left="0" Top="11,33859" Width="570,70903" Height="30,23624" StretchMode="smActualHeight" Font.Charset="1" Font.Color="0" Font.Height="-19" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Реестр счетчиков по участкам со статусами"/>
+      <TfrxMemoView Name="Memo1" Left="789,92177" Top="15,11812" Width="257,00804" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="2" HAlign="haRight" ParentFont="False" Text="Дата печати: [Date]"/>
+    </TfrxReportTitle>
+    <TfrxHeader Name="Header1" Height="45,35436" Left="0" Top="188,9765" Width="1046,92981" ReprintOnNewPage="True" Stretched="True">
+      <TfrxMemoView Name="Memo8" Left="0" Top="3,77952999999991" Width="185,19697" Height="37,7953" Color="15000804" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Участок"/>
+      <TfrxMemoView Name="Memo9" Left="185,19697" Top="3,77952999999991" Width="177,63791" Height="37,7953" Color="15000804" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Улица"/>
+      <TfrxMemoView Name="Memo10" Left="362,83488" Top="3,77952999999991" Width="34,01577" Height="37,7953" Color="15000804" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Дом"/>
+      <TfrxMemoView Name="Memo11" Left="396,85065" Top="3,77952999999991" Width="41,57483" Height="37,7953" Color="15000804" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Корп."/>
+      <TfrxMemoView Name="Memo12" Left="438,42548" Top="3,77952999999991" Width="37,7953" Height="37,7953" Color="15000804" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Кв."/>
+      <TfrxMemoView Name="Memo14" Left="570,70903" Top="3,77952999999991" Width="86,92919" Height="37,7953" Color="15000804" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Номер счетчика"/>
+      <TfrxMemoView Name="Memo16" Left="657,63822" Top="3,77952999999991" Width="79,37013" Height="37,7953" Color="15000804" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Номер ДДМ"/>
+      <TfrxMemoView Name="Memo18" Left="737,00835" Top="3,77952999999991" Width="37,7953" Height="37,7953" Color="15000804" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Стат."/>
+      <TfrxMemoView Name="Memo19" Left="476,22078" Top="3,77952999999991" Width="94,48825" Height="37,7953" Color="15000804" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Тип счетчика"/>
+      <TfrxMemoView Name="Memo21" Left="774,80365" Top="3,77952999999991" Width="272,12616" Height="37,7953" Color="15000804" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Примечание"/>
+    </TfrxHeader>
+    <TfrxMasterData Name="MasterData1" Height="22,67718" Left="0" Top="257,00804" Width="1046,92981" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" RowCount="0" Stretched="True">
+      <TfrxMemoView Name="Memo3" Left="0" Top="0" Width="185,19697" Height="18,89765" DataField="NAME" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Frame.Typ="15" Text="[frxDBDataset1.&#34;NAME&#34;]"/>
+      <TfrxMemoView Name="Memo4" Left="185,19697" Top="0" Width="177,63791" Height="18,89765" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Frame.Typ="15" Text="[frxDBDataset1.&#34;TYPE_STREET&#34;] [frxDBDataset1.&#34;NAME_STREET&#34;]"/>
+      <TfrxMemoView Name="Memo5" Left="362,83488" Top="0" Width="34,01577" Height="18,89765" DataField="DOM" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Frame.Typ="15" Text="[frxDBDataset1.&#34;DOM&#34;]"/>
+      <TfrxMemoView Name="Memo6" Left="396,85065" Top="0" Width="41,57483" Height="18,89765" DataField="KORP" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Frame.Typ="15" Text="[frxDBDataset1.&#34;KORP&#34;]"/>
+      <TfrxMemoView Name="Memo7" Left="438,42548" Top="0" Width="37,7953" Height="18,89765" DataField="FLAT" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Frame.Typ="15" Text="[frxDBDataset1.&#34;FLAT&#34;]"/>
+      <TfrxMemoView Name="Memo13" Left="476,22078" Top="0" Width="94,48825" Height="18,89765" DataField="NAME_1" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Frame.Typ="15" Text="[frxDBDataset1.&#34;NAME_1&#34;]"/>
+      <TfrxMemoView Name="Memo15" Left="657,63822" Top="0" Width="79,37013" Height="18,89765" DataField="ZAV_NOM" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Frame.Typ="15" Text="[frxDBDataset1.&#34;ZAV_NOM&#34;]"/>
+      <TfrxMemoView Name="Memo17" Left="737,00835" Top="0" Width="37,7953" Height="18,89765" DataField="SCH_STAT_EXT" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Frame.Typ="15" Text="[frxDBDataset1.&#34;SCH_STAT_EXT&#34;]"/>
+      <TfrxMemoView Name="Memo20" Left="570,70903" Top="0" Width="86,92919" Height="18,89765" DataField="SER_NUM" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Frame.Typ="15" Text="[frxDBDataset1.&#34;SER_NUM&#34;]"/>
+      <TfrxMemoView Name="Memo22" Left="774,80365" Top="0" Width="272,12616" Height="18,89765" Frame.Typ="15" Text=""/>
+    </TfrxMasterData>
+    <TfrxFooter Name="Footer1" Height="41,57483" Left="0" Top="302,3624" Width="1046,92981">
+      <TfrxMemoView Name="Memo23" Left="0" Top="15,1181199999999" Width="302,3624" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Всего записей: [COUNT(MasterData1)]"/>
+    </TfrxFooter>
+    <TfrxPageHeader Name="PageHeader1" Height="22,67718" Left="0" Top="105,82684" Width="1046,92981">
+      <TfrxMemoView Name="Memo24" Left="786,14224" Top="0" Width="260,78757" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="2" HAlign="haRight" ParentFont="False" Text="Cтраница [Page] из [TotalPages#]"/>
+    </TfrxPageHeader>
+  </TfrxReportPage>
+</TfrxReport>
